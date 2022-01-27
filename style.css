@@ -1,0 +1,68 @@
+.body {
+    margin: 0em;
+}
+
+.navbar {
+    background-color: rgb(180, 110, 24);
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    background-image: url("img/rsz_emile-perron-xrvdyzrgdw4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(240, 241, 238);
+    background-blend-mode: darken;
+}
+
+.nav-item:hover {
+    background-color: seashell;
+    transition: background-color;
+    width: 1fr;
+    transition-duration: 2s;
+    border-radius: 25%;
+}
+
+.navbar-brand:hover {
+    background-color: seashell;
+    transition-duration: 2s;
+    border-radius: 25%;
+}
+
+.btn:hover {
+    background-color: rgb(16, 179, 65);
+    transition-duration: 2s;
+    border-radius: 25%;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0px 4px 6px -1px;
+}
+
+.contaier {
+    justify-content: space-evenly;
+}
+
+
+@media all and (max-width:600px) {
+    .container {
+        grid-column:
+            1 / span 3;
+        grid-template-rows: repeat(5, 100px);
+    }
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 700px;
+    width: 600px;
+}
