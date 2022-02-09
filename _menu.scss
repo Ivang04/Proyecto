@@ -1,0 +1,17 @@
+$colorbg: black;
+$colorh1: white;
+$colorp: rgb(161, 18, 18);
+
+body {
+  background-color: $colorbg;
+}
+
+h1 {
+  color: $colorh1;
+  background-color: $colorp;
+  padding: 15px;
+}
+p {
+  color: $colorp;
+  background-color: rgb(134, 2, 2);
+}

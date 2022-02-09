@@ -3,7 +3,13 @@
 }
 
 .navbar {
-  background-color: rgb(180, 110, 24);
+  background: rgb(217, 214, 129);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 214, 129, 1) 14%,
+    rgba(2, 0, 36, 1) 66%,
+    rgba(0, 212, 255, 1) 89%
+  );
 }
 
 .cover {
